@@ -17,13 +17,9 @@ window.onload = function () {
   document.getElementById("top").innerHTML = palo;
   document.getElementById("bottom").innerHTML = palo;
 
-//   function symbolColor() {
-//     if (palo === "♥" || palo === "♦") {
-//       top.style.color = "red";
-//       bottom.style.color = "red";
-//     }
-//   }
-// symbolColor();
-
+    if (palo === "♥" || palo === "♦") {
+      document.getElementById("top").style.color = "red";
+      document.getElementById("bottom").style.color = "red";
+    }
 
 };
